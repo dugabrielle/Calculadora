@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="resultado">
+        </div>
+        <button class="especial" onclick="limpar()">AC</button>
+        <button onclick="voltar()">X</button>
+        <button class="operador" onclick="inserir('/')">/</button>
+        <button class="numeros" onclick="inserir('7')">7</button>
+        <button class="numeros" onclick="inserir('8')">8</button>
+        <button class="numeros" onclick="inserir('9')">9</button>
+        <button class="operador" onclick="inserir('*')">*</button>
+        <button class="numeros" onclick="inserir('4')">4</button>
+        <button class="numeros" onclick="inserir('5')">5</button>
+        <button class="numeros" onclick="inserir('6')">6</button>
+        <button class="operador" onclick="inserir('-')">-</button>
+        <button class="numeros" onclick="inserir('1')">1</button>
+        <button class="numeros" onclick="inserir('2')">2</button>
+        <button class="numeros" onclick="inserir('3')">3</button>
+        <button class="operador" onclick="inserir('+')">+</button>
+        <button class="numeros" onclick="inserir('0')">0</button>
+        <button class="especial" onclick="inserir('.')">.</button>
+        <button class="operador" onclick="confirmar()">=</button>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
