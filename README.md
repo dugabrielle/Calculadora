@@ -1,4 +1,4 @@
-Calculadora simples que realiza as quatro operações básicas.
+Calculadora que realiza as quatro operações básicas.
 
 Screenshot Desktop: 
 
